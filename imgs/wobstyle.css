@@ -20,18 +20,18 @@
 	float: left;
  }
  a:link {
-	color: orange;
+	color: white;
 	text-decoration: none;
  }
  a:visited {
-	color: orange;
+	color: white;
 	text-decoration: none;
  }
  a:hover {
-	color: red;
+	color: white;
 	text-decoration: underline;
  }
  a:active {
-	color: orange;
+	color: white;
 	text-decoration: none;
  }

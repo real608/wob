@@ -1,0 +1,292 @@
+ body {
+	font-family: Meiryo;
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/NewTM_Background.png);
+	background-attachment:fixed;
+	background-position:center; 
+ }
+ #container {
+	background-image: url(https://media.discordapp.net/attachments/345988575143395328/851971024957341746/wobg.png);
+	width: 1000px;
+	border: 1px solid black;
+ }
+ #navigation {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/Red_Trans.png);
+	width: 1000px;
+	margin: 2px;
+	border: 1px solid black;
+	font-weight: bold;
+ }
+ #navigation b {
+	float: left;
+ }
+ a:link {
+	color: orange;
+	text-decoration: none;
+ }
+ a:visited {
+	color: orange;
+	text-decoration: none;
+ }
+ a:hover {
+	color: red;
+	text-decoration: underline;
+ }
+ a:active {
+	color: orange;
+	text-decoration: none;
+ }
+ #Member_Username {
+	height: 75px;
+	border: 1px solid black;
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	padding-left: 4px;
+	padding-right: 4px;
+	margin: 2px;
+	width: 150px;
+	text-align: center;
+ }
+ #Member_Description {
+	height: 75px;
+	border: 1px solid black;
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	padding-left: 4px;
+	padding-right: 4px;
+	margin: 2px;
+	text-align: center;
+	width: 400px;
+	font-size: 12px;
+ }
+ input {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/Blue_Trans.png);
+	font-size: 20px;
+	border: 1px solid black;
+	width: 300px;
+ }
+ input:focus {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightBlue_Trans.png);
+ }
+ textarea {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/Blue_Trans.png);
+	font-size: 14px;
+	font-family: Arial;
+	padding: 10px;
+ }
+ textarea:focus {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightBlue_Trans.png);
+ }
+ select {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/Blue_Trans.png);
+	font-size: 20px;
+	width: 300px;
+ }
+ #Inbox_Message_Sender {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	width: 150px;
+	border: 1px solid black;
+	margin: 2px;
+	padding: 4px;
+	text-align: center;
+ }
+ #Inbox_Message_Title {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	width: 600px;
+	border: 1px solid black;
+	margin: 2px;
+	padding: 4px;
+	text-align: center;
+ }
+ #Message_Container {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	width: 700px;
+	margin: 2px;
+	padding: 4px;
+	text-align: center;
+ }
+ #Message_Body {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	width: 700px;
+	height: 300px;
+	margin: 2px;
+	padding: 4px;
+	text-align: center;
+ }
+ #Profile_Username {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	width: 700px;
+	margin: 2px;
+	padding: 4px;
+	text-align: center;
+ }
+ #Premium_Username {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/Red_Trans.png);
+	border: 1px solid black;
+	width: 700px;
+	margin: 2px;
+	padding: 4px;
+	font-size: 12px;
+	text-align: center;
+ } 
+ #Profile_Container {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 1px;
+	padding: 2px;
+	text-align: center;
+	width: 391px;
+	font-size: 12px;
+ }
+ #Profile_Avatar {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 1px;
+	padding: 2px;
+	text-align: center;
+	width: 100px;
+	font-size: 12px;
+ }
+ #Profile_Info {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 1px;
+	padding: 2px;
+	text-align: center;
+	height: 200px;
+	width: 591px;
+	font-size: 12px;
+ }
+ #Profile_Container1 {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 1px;
+	padding: 2px;
+	text-align: center;
+	width: 300px;
+	font-size: 12px;
+ }
+ #Send_To {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 1px;
+	width: 600px;
+	text-align: center;
+	font-size: 13px;
+ }
+ #Send_Body {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 1px;
+	width: 600px;
+	text-align: center;
+	font-size: 13px;
+ }
+ #Forum_Subject {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 2px;
+	width: 700px;
+	font-size: 13px;
+	text-align: center;
+ }
+ #Forum_Addon {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 2px;
+	width: 150px;
+	font-size: 13px;
+	text-align: center;
+ }
+ #Forum_Name {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 2px;
+	width: 150px;
+	font-size: 13px;
+	text-align: center;
+ }
+ #Forum_Image {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 2px;
+	width: 30px;
+	font-size: 13px;
+	text-align: center;
+ }
+ #Forum_Body {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 2px;
+	width: 700px;
+	height: 400px;
+	font-size: 13px;
+	text-align: center;
+ }
+ #Forum_Post {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 2px;
+	width: 700px;
+	height: 250px;
+	font-size: 13px;
+	text-align: center;
+ }
+ #Forum_Avatar {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 2px;
+	font-size: 13px;
+	text-align: center;
+	padding: 2px;
+ }
+ #Item_Info {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 2px;
+	width: 587px;
+	height: 204px;
+	font-size: 13px;
+ }
+ #Forum_Cont {
+	width: 710px;
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+ }
+ #LS_Cont {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 2px;
+	width: 694px;
+	font-size: 13px;
+	text-align: center;
+ }
+ #LimitedSelling {
+	background-image: url(/web/20111106190826im_/http://twistmania.net/media/LightGrey_Trans.png);
+	border: 1px solid black;
+	margin: 2px;
+	width: 700px;
+	font-size: 13px;
+	text-align: center;
+ }
+/*
+     FILE ARCHIVED ON 19:08:26 Nov 06, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:51:24 Jun 08, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.resolve: 70.011
+  exclusion.robots.policy: 0.441
+  esindex: 0.01
+  exclusion.robots: 0.456
+  CDXLines.iter: 19.555 (3)
+  LoadShardBlock: 939.393 (3)
+  PetaboxLoader3.datanode: 951.908 (4)
+  RedisCDXSource: 4.589
+  captures_list: 966.56
+  load_resource: 87.652
+*/
